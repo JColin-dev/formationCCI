@@ -1,4 +1,6 @@
 # formationCCI
 
-lorem ipsum
-Je viens de créer une nouvelle branche
+
+lorem ipsum 2
+
+Encore une nouvelle phrase.
