@@ -1,0 +1,60 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);    
+    transition: 0.3s;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    background: rgb(238, 194, 113);
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.rond1 {
+    height: 15px;
+    width: 15px;
+    background: blue;
+    border-radius: 50%;
+    margin: 10px;
+}
+.rond2 {
+    height: 15px;
+    width: 15px;
+    background: green;
+    border-radius: 50%;
+    margin: 10px;
+}
+.rond3 {
+    height: 15px;
+    width: 15px;
+    background: red;
+    border-radius: 50%;
+    margin: 10px;
+}
+.rond4 {
+    height: 15px;
+    width: 15px;
+    background: yellow;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.ensemble {
+    display: flex;
+    justify-content: left;
+}
+.card:hover {
+    background-color: rgb(115, 219, 115);
+    width: 100px;
+    height: 20px;
+    border: 1px solid white;
+}
